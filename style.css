@@ -76,10 +76,10 @@ body{
 
 box.x {
     color: #FF6B35; /* Color for X */
-    background-color: #c0c0c0; /* You can adjust this color */
+    background-color: #c0c0c0;
 }
 
 .box.o {
     color: #4CAF50; /* Color for O */
-    background-color: #c0c0c0; /* You can adjust this color */
+    background-color: #c0c0c0; 
 }
