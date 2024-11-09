@@ -1,7 +1,7 @@
 let boxes = document.querySelectorAll(".box");
 let rstbtn = document.querySelector("#reset");
 let newbtn = document.querySelector("#new-btn");
-let msgContainer = document.querySelector(".msg-container"); // Fixed selector
+let msgContainer = document.querySelector(".msg-container"); 
 let msg = document.querySelector("#msg");
 
 let turnO = true;
@@ -32,7 +32,7 @@ boxes.forEach((box) => {
 const resetGame = () => {
     turnO = true;
     enableBoxes();
-    msgContainer.classList.add("hide"); // Fixed variable name
+    msgContainer.classList.add("hide"); 
 };
 
 boxes.forEach((box) => {
@@ -90,4 +90,4 @@ const showDraw = () => {
 };
 
 newbtn.addEventListener("click", resetGame);
-rstbtn.addEventListener("click", resetGame); // Fixed to use the correct button
+rstbtn.addEventListener("click", resetGame); 
